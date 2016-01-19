@@ -1,12 +1,15 @@
 {
   "name": "genoset-119",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "You have a 6.5x increased risk for breast cancer",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
-  "repositories": "github.com/kevincol54/genoset-119",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevincol54/genoset-119"
+  },
   "scripts": {
     "test": "tap ./tests/*.js | tap-spec",
     "lint": "standard *.js tests/*.js"
