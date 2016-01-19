@@ -1,0 +1,38 @@
+{
+  "name": "genoset-119",
+  "version": "1.0.0",
+  "description": "You have a 6.5x increased risk for breast cancer",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repositories": "github.com/kevincol54/genoset-119",
+  "scripts": {
+    "test": "tap ./tests/*.js | tap-spec",
+    "lint": "standard *.js tests/*.js"
+  },
+  "keywords": [
+    "genome",
+    "genoset",
+    "genes",
+    "dna",
+    "gs119",
+    "genoset-119",
+    "cancer",
+    "breast cancer",
+    "increased risk"
+  ],
+  "author": "Kevin Collins <kevincol54@gmail.com> (https://github.com/kevincol54)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^5.0.1",
+    "tap-spec": "^4.1.1"
+  },
+  "dependencies": {
+    "gql": "^1.1.0"
+  },
+  "engines": {
+    "node": "4.2.4"
+  }
+}
